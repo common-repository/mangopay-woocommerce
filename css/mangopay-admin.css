@@ -1,0 +1,207 @@
+/**
+ * MANGOPAY wp-admin CSS
+ *
+ */
+
+/** Status display **/
+div.mangopay-status {
+	width: 100%;
+}
+.mp_checklist_item .cypher_lib {
+    display: contents;
+}
+
+.mp_checklist_status.success {
+	font-weight: bold;
+  	color: green;
+}
+.mp_checklist_status.failure {
+	font-weight: bold;
+  	color: red;
+}
+.pv_shop_kyc_container mark {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    background: 0 0;
+    font-size: 1.4em;
+    margin: 0 auto;
+}
+.kyc_list_documents_banner{
+    width: 100%;
+    border: solid 1px;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: white;
+}
+.kyc_list_documents_banner.regular{
+    background-color: #63a55b;
+}
+.kyc_list_documents_banner.light{
+    background-color: #68aef3;
+}
+mark.kyc::after{
+    font-family: WooCommerce;
+    text-indent: 0;
+    position: absolute;
+    left: 0;
+    /*top: 0;*/
+    margin: 0 auto;
+    font-size: 1.4em;
+    background: 0 0;
+    line-height: 1;
+}
+mark.kyc.not_sent::after {
+    content: '\e012';
+    color:#ffba00;
+}
+mark.kyc.validation_asked::after {
+     content: '\e011';
+     color: #73a724;
+}
+mark.kyc.validated::after {
+     content: '\e015';
+     color: #2ea2cc;
+}
+mark.kyc.refused::after {
+     content: '\e013';
+     color: #a00;
+}
+.kyc_list_documents_div_tooltype_error{
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    margin-left: 100px;
+    border: solid 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.kyc_list_documents_td_status_icon{
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background: 0 0;
+    font-size: 1.4em;
+    margin: 0 auto;
+    vertical-align: center;
+}
+.capturepreauth{
+    float: right;
+    margin-left: 5px !important;
+}
+.cancelpreauth{
+    float: right;
+    margin-left: 5px !important;
+}
+.capturebuttondiv{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+.capturefieldamountdiv{
+    display: inline-block;
+    float: right;
+}
+.preauth_table_admin td{
+    vertical-align: middle;
+    height: 35px;
+}
+.preauth_amount_max{
+    text-align: center;
+}
+.preauth_amounttotake{
+    margin: 10px;
+}
+.preauth_total{
+    font-weight: bold;
+}
+#postcustomstuff table input#applypartialcapture {
+	width: auto;
+}
+#postcustomstuff table input.cancelpreauth {
+	float: none;
+	margin-left: 8px !important;
+}
+.preauthconfirmcapture{
+	margin-left:8px;
+}
+
+/** UBO back-office WP **/
+#ubo_data .ubo_table_list_declarations input,
+#ubo_data #ubo_create_div input.btn,
+#add_button_ubo_element,
+#update_button_ubo_element,
+#cancel_button_ubo_element,
+#ubo_askvalidation_button {
+    background: #007cba;
+    border-color: #007cba;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 2;
+    min-height: 28px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.table_user_list_resume td{
+	line-height: 0.5em;
+}
+
+.arrowtableusers {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	margin-left: 10px;
+}
+
+.arrowtableusersright {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.arrowtableusersleft {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+
+.arrowtableusersup {
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
+
+.arrowtableusersdown {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+.sublineusermangopay{
+	display: none;
+}
+
+.openusermangopaydetails{
+	cursor: pointer;
+}
+
+/** Users page **/
+/* Column style */
+@media screen and (max-width:1499px) and (min-width:783px) {
+    .wp-admin .wp-list-table thead #mp_account,
+    .wp-admin .wp-list-table tbody .mp_account {
+        width: 33%;
+    }
+}

@@ -1,0 +1,1603 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MANGOPAY WP Plugin Text\n"
+"POT-Creation-Date: 2016-03-15 10:00+0000\n"
+"PO-Revision-Date: 2023-03-24 17:13+0100\n"
+"Last-Translator: Yann Dubois <yann@wpandco.fr>\n"
+"Language-Team: Y.Dubois <yann@wpandco.fr>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: inc/main.inc.php:44
+msgid "IBAN"
+msgstr "IBAN"
+
+#: inc/main.inc.php:52, 148
+msgid "BIC"
+msgstr "BIC"
+
+#: inc/main.inc.php:62, 80, 130, 156
+msgid "Account Number"
+msgstr "Numéro de compte"
+
+#: inc/main.inc.php:70
+msgid "Sort Code"
+msgstr "Sort Code"
+
+#: inc/main.inc.php:96
+msgid "Deposit Account Type"
+msgstr "Type de compte de dépôt"
+
+#: inc/main.inc.php:106
+msgid "Bank Name"
+msgstr "Nom de la banque"
+
+#: inc/main.inc.php:114
+msgid "Institution Number"
+msgstr "Numéro d'institution"
+
+#: inc/main.inc.php:122
+msgid "Branch Code"
+msgstr "Code de branche"
+
+#: inc/main.inc.php:404
+msgid "The MANGOPAY payment gateway needs to be configured."
+msgstr "La passerelle de paiement MANGOPAY doit être configurée."
+
+#: inc/main.inc.php:406
+msgid "Please click here"
+msgstr "Veuillez cliquer ici"
+
+#: inc/main.inc.php:452
+msgid "Compliance information"
+msgstr "Informations de conformité"
+
+#: inc/main.inc.php:136
+msgid "Required documents:"
+msgstr "Documents requis&nbsp;:"
+
+#: inc/main.inc.php:153
+msgid "You need to validate your KYC documents to do a payout."
+msgstr "Vous devez valider vos documents KYC pour transférer les fonds sur votre compte en banque."
+
+#: inc/main.inc.php:161
+msgid "You need to agree to the marketplace's terms and conditions."
+msgstr "Vous devez avoir accepté les conditions générales de la plateforme."
+
+#: inc/main.inc.php:169
+msgid "You need to supply a valid company number to do a payout."
+msgstr "Vous devez renseigner votre numéro d'identification d'entreprise pour pouvoir transférer les fonds sur votre compte en banque."
+
+#: inc/main.inc.php:158
+msgid "Not uploaded yet"
+msgstr "Pas encore envoyé"
+
+#: inc/main.inc.php:158
+msgid "Validation asked"
+msgstr "Validation demandée"
+
+#: inc/main.inc.php:182
+msgid "Identity proof"
+msgstr "Preuve d'identité"
+
+#: inc/main.inc.php:182
+msgid "Articles of association"
+msgstr "Statuts"
+
+#: inc/main.inc.php:182
+msgid "Registration proof"
+msgstr "Preuve d'enregistrement"
+
+#: inc/main.inc.php:198
+msgid "Uploaded on"
+msgstr "Envoyé le"
+
+#: inc/main.inc.php:255
+msgid "You must upload the following documents to complete the compliance checks"
+msgstr "Vous devez envoyer les documents suivants pour être en conformité avec les vérifications obligatoires"
+
+#: inc/main.inc.php:297
+msgid "Unauthorized file type (.pdf, .jpeg, .jpg, .gif and .png only)"
+msgstr "Type de fichier incorrect (uniquement .pdf, .jpeg, .jpg, .gif et .png)"
+
+#: inc/main.inc.php:304
+msgid "This file is too small. (1KB min.)"
+msgstr "Fichier trop léger (1Ko mini.)"
+
+#: inc/main.inc.php:309
+msgid "This file is too big. (7MB max.)"
+msgstr "Fichier trop lourd (7Mo max.)"
+
+#: inc/main.inc.php:358
+msgid "The document has been successfully uploaded and submitted for validation"
+msgstr "Document envoyé avec succès et validation demandée"
+
+#: inc/main.inc.php:361
+msgid "Something went wrong (no validation asked)"
+msgstr "Erreur (pas de validation demandée)"
+
+#: inc/main.inc.php:484
+msgid "Upload a new document:"
+msgstr "Envoyer un nouveau document&nbsp;:"
+
+#: inc/main.inc.php:503
+msgid "Use the Ctrl key to select multiple files to upload if necessary"
+msgstr "Utiliser la touche Ctrl pour sélectionner plusieurs fichiers à envoyer le cas échéant"
+
+#: inc/main.inc.php:509
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: inc/main.inc.php:480
+msgid "Mangopay"
+msgstr "Mangopay"
+
+#: inc/main.inc.php:481 inc/gateway.inc.php:64
+msgid "MANGOPAY"
+msgstr "MANGOPAY"
+
+#: inc/main.inc.php:505
+msgid "MANGOPAY API connected succesfully!"
+msgstr "Succès de la connexion avec l'API MANGOPAY"
+
+#: inc/main.inc.php:511
+msgid "MANGOPAY API Connection problem:"
+msgstr "Problème de connexion à l'API MANGOPAY&nbsp;:"
+
+#: inc/main.inc.php:512
+msgid "the connection test returned an unexpected result"
+msgstr "le test de connexion a retourné un résultat inattendu"
+
+#: inc/main.inc.php:515
+msgid "MANGOPAY warning"
+msgstr "Alerte MANGOPAY"
+
+#: inc/main.inc.php:525
+msgid "MANGOPAY is disabled"
+msgstr "MANGOPAY est désactivé"
+
+#: inc/main.inc.php:535
+msgid "The current WooCommerce currency is unsupported by MANGOPAY"
+msgstr "La devise WooCommerce actuelle n'est pas supportée par MANGOPAY"
+
+#: inc/main.inc.php:521
+msgid "MANGOPAY Settings &amp; Status"
+msgstr "Réglages et état de MANGOPAY"
+
+#: inc/main.inc.php:523
+msgid "Setup your MANGOPAY credentials &amp; check system configuration."
+msgstr "Configurez vos identifiants MANGOPAY et vérifiez la configuration du système."
+
+#: inc/main.inc.php:525
+msgid "Click here to signup for a free MANGOPAY sandbox account"
+msgstr "Cliquez ici pour obtenir un compte de test &laquo;Sandbox&raquo; gratuit"
+
+#: inc/main.inc.php:526
+msgid "Click here to register your marketplace for production"
+msgstr "Cliquez ici pour faire valider votre place de marché pour la production"
+
+#: inc/main.inc.php:546
+msgid "MANGOPAY status"
+msgstr "Etat de MANGOPAY"
+
+#: inc/main.inc.php:570
+msgid "General settings"
+msgstr "Réglages d'ensemble"
+
+#: inc/main.inc.php:577
+msgid "Production or sandbox"
+msgstr "Production ou &laquo;Sandbox&raquo;"
+
+#: inc/main.inc.php:585
+msgid "Sandbox Client ID"
+msgstr "ID client pour la &laquo;Sandbox&raquo;"
+
+#: inc/main.inc.php:594
+msgid "Sandbox API Key"
+msgstr "&laquo;Clé API&raquo; de la &laquo;Sandbox&raquo;"
+
+#: inc/main.inc.php:603
+msgid "Production Client ID"
+msgstr "ID client pour la production"
+
+#: inc/main.inc.php:612
+msgid "Production API Key"
+msgstr "&laquo;Clé API&raquo; de la production"
+
+#: inc/main.inc.php:651, 1607
+msgid "Production"
+msgstr "Production"
+
+#: inc/main.inc.php:654, 1609
+msgid "Sandbox"
+msgstr "&laquo;Sandbox&raquo;"
+
+#: inc/main.inc.php:701
+msgid "All buyers are"
+msgstr "Tous les acheteurs sont"
+
+#: inc/main.inc.php:710
+msgid "All vendors are"
+msgstr "Tous les vendeurs sont"
+
+#: inc/main.inc.php:719
+msgid "All businesses are"
+msgstr "Tous les professionnels sont"
+
+#: inc/main.inc.php:673, 800
+msgid "First name"
+msgstr "Prénom"
+
+#: inc/main.inc.php:678, 809
+msgid "Last name"
+msgstr "Nom de famille"
+
+#: inc/main.inc.php:692, 739, 1415
+msgid "Birthday"
+msgstr "Date de naissance"
+
+#: inc/main.inc.php:702, 740, 847, 1423
+msgid "Nationality"
+msgstr "Nationalité"
+
+#: inc/main.inc.php:717, 741
+msgid "Country of residence"
+msgstr "Pays de résidence"
+
+#: inc/main.inc.php:815, 824, 834, 862, 881
+msgid "is required!"
+msgstr "est obligatoire&nbsp;!"
+
+#: inc/main.inc.php:843
+msgid "Invalid Birthday format. Please use YYYY-MM-DD."
+msgstr "Format de date de naissance invalide. Veuillez utiliser AAAA-MM-JJ."
+
+#: inc/main.inc.php:866
+msgid "You can not create a declaration because you already have a declaration in progress"
+msgstr "Vous ne pouvez pas créer de déclaration car une déclaration est déjà en cours d'examen"
+
+#: inc/main.inc.php:852, 1604
+msgid "Invalid Birthday date."
+msgstr "Date de naissance invalide."
+
+#: inc/main.inc.php:1141, 2242
+msgid "Please use this format: "
+msgstr "Veuillez utiliser ce format&nbsp;: "
+
+#: inc/main.inc.php:871, 1624
+msgid "Unknown country for Nationality"
+msgstr "Pays inconnu pour la nationalité"
+
+#: inc/main.inc.php:890
+msgid "Unknown country"
+msgstr "Pays inconnu"
+
+#: inc/main.inc.php:943
+msgid "MANGOPAY failed transactions"
+msgstr "Transactions MANGOPAY échouées"
+
+#: inc/main.inc.php:976
+msgid "Failed payouts"
+msgstr "Virements échoués"
+
+#: inc/main.inc.php:979
+msgid "No failed payout"
+msgstr "Aucun virement échoué"
+
+#: inc/main.inc.php:1048, 1124
+msgid "Ignore"
+msgstr "Ignorer"
+
+#: inc/main.inc.php:1049
+msgid "Retry"
+msgstr "Ré-essayer"
+
+#: inc/main.inc.php:1067
+msgid "Refused KYC documents"
+msgstr "Documents KYC refusés"
+
+#: inc/main.inc.php:1069
+msgid "No refused KYC document"
+msgstr "Aucun documents KYC refusé"
+
+#: inc/main.inc.php:1113
+msgid "For WP user:"
+msgstr "Pour l'utilisateur WP&nbsp;:"
+
+#: inc/main.inc.php:1119
+msgid "For MP user:"
+msgstr "Pour l'utilisateur MP&nbsp;:"
+
+#: inc/main.inc.php:1125
+msgid "Upload another document"
+msgstr "Télécharger un autre document"
+
+#: inc/main.inc.php:1190, 2298
+msgid "Unknown user status"
+msgstr "Statut d&apos;utilisateur inconnu"
+
+#: inc/main.inc.php:1214, 2329
+msgid "Unknown business type"
+msgstr "Type d'organisation inconnu"
+
+#: inc/main.inc.php:898
+msgid "Organisations"
+msgstr "Organisations"
+
+#: inc/main.inc.php:901
+msgid "Individuals"
+msgstr "Des particuliers"
+
+#: inc/main.inc.php:904
+msgid "Businesses"
+msgstr "Des professionnels"
+
+#: inc/main.inc.php:906
+msgid "Either"
+msgstr "L&apos;un ou l&apos;autre"
+
+#: inc/main.inc.php:970
+msgid "User status"
+msgstr "Statut de l&apos;utilisateur"
+
+#: inc/main.inc.php:970
+msgid "individual"
+msgstr "particulier"
+
+#: inc/main.inc.php:970
+msgid "business"
+msgstr "professionnel"
+
+#: inc/main.inc.php:970
+msgid "organisation"
+msgstr "organisation"
+
+#: inc/main.inc.php:974
+msgid "Individual"
+msgstr "Particulier"
+
+#: inc/main.inc.php:975
+msgid "Business user"
+msgstr "Professionnel"
+
+#: inc/main.inc.php:975
+msgid "Business"
+msgstr "Société"
+
+#: inc/main.inc.php:975
+msgid "Organisation"
+msgstr "Organisation"
+
+#: inc/main.inc.php:1025, 1040, 1357, 2057, 2071
+msgid "Select option..."
+msgstr "Choisir une option..."
+
+#: inc/main.inc.php:1030
+msgid "Business type"
+msgstr "Type d&apos;organisation"
+
+#: inc/main.inc.php:1138
+msgid "MANGOPAY info"
+msgstr "Infos MANGOPAY"
+
+#: inc/main.inc.php:1157, 1227
+msgid "No MANGOPAY wallets. Please check that all required fields have been completed in the user profile."
+msgstr "Aucun portefeuille MANGOPAY. Vérifiez que tous les champs obligatoires du profil utilisateur ont été renseignés."
+
+#: inc/main.inc.php:1260
+msgid "Wallet #"
+msgstr "Portefeuille N&deg;"
+
+#: inc/main.inc.php:1166
+msgid "View the user (#%s) in the MANGOPAY Dashboard"
+msgstr "Voir l&apos;utilisateur (N&deg;%s) dans le tableau de bord MANGOPAY"
+
+#: inc/main.inc.php:1167
+msgid "View user&apos;s MANGOPAY transactions"
+msgstr "Accès aux transactions MANGOPAY de l&apos;utilisateur"
+
+#: inc/main.inc.php:1173
+msgid "Creation Date"
+msgstr "Date de création"
+
+#: inc/main.inc.php:1174
+msgid "Description"
+msgstr "Description"
+
+#: inc/main.inc.php:1175
+msgid "Balance"
+msgstr "Position"
+
+#: inc/main.inc.php:1265
+msgid "View transactions"
+msgstr "Voir les transactions"
+
+#: inc/main.inc.php:1265
+msgid "Wallet Options"
+msgstr "Actions sur portefeuille"
+
+#: inc/main.inc.php:1178, 1207
+msgid "Do a PayOut"
+msgstr "Faire un Virement"
+
+#: inc/main.inc.php:1188
+msgid "See MANGOPAY transactions for wallet #%s"
+msgstr "Voir les transactions MANGOPAY pour le portefeuille #%s"
+
+#: inc/main.inc.php:1193
+msgid "Do a MANGOPAY payout for wallet #%s"
+msgstr "Faire un virement pour le portefeuille MANGOPAY #%s"
+
+#: inc/main.inc.php:1251
+msgid "Bank account info"
+msgstr "Informations bancaires"
+
+#: inc/main.inc.php:1259
+msgid "Account type:"
+msgstr "Type de compte&nbsp;:"
+
+#: inc/main.inc.php:3160
+msgid "Account type"
+msgstr "Type de compte"
+
+#: inc/main.inc.php:1307
+msgid "Account holder&apos;s name"
+msgstr "Nom du détenteur du compte"
+
+#: inc/main.inc.php:1315
+msgid "Account holder&apos;s address"
+msgstr "Adresse du détenteur du compte"
+
+#: inc/main.inc.php:1324
+msgid "Account holder&apos;s city"
+msgstr "Ville du détenteur du compte"
+
+#: inc/main.inc.php:1332
+msgid "Account holder&apos;s postal code"
+msgstr "Code postal du détenteur du compte"
+
+#: inc/main.inc.php:1427
+msgid "Account holder&apos;s region"
+msgstr "Région du détenteur du compte"
+
+#: inc/main.inc.php:1340
+msgid "Account holder&apos;s country"
+msgstr "Pays du détenteur du compte"
+
+#: inc/main.inc.php:1495
+msgid "Extra profile information for MANGOPAY"
+msgstr "Informations de profil supplémentaires pour MANGOPAY"
+
+#: inc/main.inc.php:1547, 1423, 1464
+msgid "(required)"
+msgstr "(obligatoire)"
+
+#: inc/main.inc.php:1523, 1440
+msgid "Select a country..."
+msgstr "Sélectionnez un pays..."
+
+#: inc/main.inc.php:140, 866, 1520
+msgid "Country"
+msgstr "Pays"
+
+#: inc/main.inc.php:1534
+msgid "Bank account data"
+msgstr "Données bancaires"
+
+#: inc/main.inc.php:1644, 1734
+msgid "is invalid!"
+msgstr "invalide&nbsp;!"
+
+#: inc/main.inc.php:1709
+msgid "not a valid bank account type"
+msgstr "type de compte bancaire invalide"
+
+#: inc/main.inc.php:1853
+msgid "Current environment:"
+msgstr "Environnement actif&nbsp;:"
+
+#: inc/main.inc.php:1863
+msgid "Client ID:"
+msgstr "ID client&nbsp;:"
+
+#: inc/main.inc.php:1866, 1878
+msgid "Present!"
+msgstr "Présent&nbsp;!"
+
+#: inc/main.inc.php:1870, 1882
+msgid "Missing :("
+msgstr "Absent :("
+
+#: inc/main.inc.php:1875
+msgid "API Key:"
+msgstr "&laquo;Clé API&raquo;&nbsp;:"
+
+#: inc/main.inc.php:1887
+msgid "MANGOPAY API Connection:"
+msgstr "Connexion à l'API MANGOPAY&nbsp;:"
+
+#: inc/main.inc.php:1890, 1902, 1914
+msgid "Success!"
+msgstr "Succès&nbsp;!"
+
+#: inc/main.inc.php:1894, 1906, 1918
+msgid "Failure :("
+msgstr "Echec :("
+
+#: inc/main.inc.php:1899
+msgid "MANGOPAY-WooCommerce plugin version:"
+msgstr "Version de l'extension MANGOPAY-WooCommerce&nbsp;:"
+
+#: inc/main.inc.php:1906, 2012
+msgid "Unknown"
+msgstr "Inconnue"
+
+#: inc/main.inc.php:1925
+msgid "Required WooCommerce plugin present &amp; activated:"
+msgstr "Extension WooCommerce prérequise présente &amp; activée&nbsp;:"
+
+#: inc/main.inc.php:1937
+msgid "WooCommerce plugin version:"
+msgstr "Version de l'extension WooCommerce&nbsp;:"
+
+#: inc/main.inc.php:1950
+msgid "MANGOPAY enabled as a WooCommerce payment gateway:"
+msgstr "MANGOPAY activé comme passerelle de paiement WooCommerce&nbsp;:"
+
+#: inc/main.inc.php:2656
+msgid "At least one card type or payment method is enabled:"
+msgstr "Au moins un type de carte ou une méthode de paiement activé&nbsp;:"
+
+#: inc/main.inc.php:1964
+msgid "WooCommerce guest checkout should be disabled"
+msgstr "Les &laquo;commandes invités&raquo; de WooCommerce doivent être désactivées"
+
+#: inc/main.inc.php:1978
+msgid "Current WooCommerce currency is supported by MANGOPAY:"
+msgstr "La devise actuelle de WooCommerce est gérée par MANGOPAY&nbsp;:"
+
+#: inc/main.inc.php:1983
+msgid "Supported"
+msgstr "Acceptée"
+
+#: inc/main.inc.php:1988
+msgid "Unsupported"
+msgstr "Non gérée"
+
+#: inc/main.inc.php:1993
+msgid "Required %1$s plugin present &amp; activated:"
+msgstr "Extension %1$s prérequise présente &amp; activée&nbsp;:"
+
+#: inc/main.inc.php:2005
+msgid "%1$s plugin version:"
+msgstr "Version de l'extension %1$s&nbsp;:"
+
+#: inc/main.inc.php:2017
+msgid "PHP cypher library available:"
+msgstr "Bibliothèque de cryptage PHP disponible&nbsp;:"
+
+#: inc/main.inc.php:2024
+msgid "Unavailable. Your API Key will be stored as clear text in the WordPress database."
+msgstr "Indisponible. Votre &laquo;Clé API&raquo; sera stockée en clair dans la base de données de WordPress."
+
+#: inc/main.inc.php:2029
+msgid "Keyfile directory is writable:"
+msgstr "Ecriture possible dans le répertoire du fichier de clé&nbsp;:"
+
+#: inc/main.inc.php:2041
+msgid "Temporary directory is writable:"
+msgstr "Ecriture possible dans le répertoire temporaire&nbsp;:"
+
+#: inc/main.inc.php:2054
+msgid "All active vendors have a MANGOPAY account:"
+msgstr "Tous les vendeurs actifs ont un compte MANGOPAY&nbsp;:"
+
+#: inc/main.inc.php:2382
+msgid "Mangopay Terms and conditions"
+msgstr "Conditions générales d'utilisation de MANGOPAY"
+
+#: inc/main.inc.php:3552
+msgid "Orders with pre-authorization"
+msgstr "Commandes avec pré-autorisation"
+
+#: inc/admin.inc.php:820
+msgid "PHP cUrl library available:"
+msgstr "Bibliothèque PHP cUrl disponible&nbsp;:"
+
+#: inc/admin.inc.php:835
+msgid "All products are assigned to a vendor:"
+msgstr "Tous les produits sont attribués à un vendeur&nbsp;:"
+
+#: inc/admin.inc.php:968
+msgid "All vendors are KYC-approved:"
+msgstr "Tous les vendeurs ont validé leurs documents KYC&nbsp;:"
+
+#: inc/admin.inc.php:982
+msgid "All vendors that operate as businesses have a company number:"
+msgstr "Tous les vendeurs qui sont des personnes morales de type entreprises ont un numéro d'identification&nbsp;:"
+
+#: inc/admin.inc.php:997
+msgid "All vendors have terms and conditions:"
+msgstr "Tous les vendeurs ont des conditions générales&nbsp;:"
+
+#: inc/admin.inc.php:1035
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: inc/admin.inc.php:1038
+msgid "An error has occurred, please try again later."
+msgstr "Une erreur est survenue, veuillez ré-essayer plus tard."
+
+#: inc/admin.inc.php:1619
+msgid "T&C"
+msgstr "CGV"
+
+#: inc/admin.inc.php:1620
+msgid "Company number"
+msgstr "N&deg; d'identification"
+
+#: inc/admin.inc.php:1983
+msgid "Item"
+msgstr "Item"
+
+#: inc/admin.inc.php:1984
+msgid "Amount to cash-in"
+msgstr "Montant à encaisser"
+
+#: inc/admin.inc.php:1985
+msgid "Maximum amount"
+msgstr "Montant maximum"
+
+#: inc/admin.inc.php:2018
+msgid "Taxes"
+msgstr "Taxes"
+
+#: inc/admin.inc.php:2047
+msgid "Shipping"
+msgstr "Transport"
+
+#: inc/admin.inc.php:2065
+msgid "Shipping taxes"
+msgstr "Taxes s/transport"
+
+#: inc/admin.inc.php:2077
+msgid "The pre-authorized amount is %1$s %2$s."
+msgstr "Le montant pré-autorisé est %2$s %1$s."
+
+#: inc/admin.inc.php:2078
+msgid "You cannot capture more than this amount for this order"
+msgstr "Vous ne pouvez pas débiter plus que ce montant sur cette commande"
+
+#: inc/admin.inc.php:2089
+msgid "Total amount that will be captured"
+msgstr "Montant total qui sera capturé"
+
+#: inc/admin.inc.php:2173
+msgid "No pre-authorization"
+msgstr "Pas de pré-autorisation"
+
+#: inc/main.inc.php:1850
+msgid "%s MANGOPAY Data"
+msgstr "Données MANGOPAY %s"
+
+#: inc/main.inc.php:1905
+msgid "Payment for this order has been successfully pre-authorized by MANGOPAY. Click the [Capture] button to withdraw the full pre-authorized amount from the customer's card and capture the effective payment (ie to cash-in a deposit). Click the [Cancel] button to avoid withdrawing any funds and cancel this pre-authorization (ie to refund a deposit)."
+msgstr "Le paiement de cette commande a été pré-autorisé avec succès par MANGOPAY. Cliquez le bouton [Capturer] pour débiter le total du montant pré-autorisé sur la carte du client et capturer le paiement effectif (par exemple pour encaisser une caution). Cliquez le bouton [Annuler] pour annuler ce paiement pré-autorisé sans débiter aucun montant (par exemple pour rembourser une caution)."
+
+#: inc/main.inc.php:1909
+msgid "The pre-authorized payment was captured (ie the deposit was cashed-in)."
+msgstr "Le paiement pré-autorisé a été capturé (ou la caution a été encaissée)."
+
+#: inc/main.inc.php:1913
+msgid "The pre-authorized payment was cancelled (ie the deposit was refunded)."
+msgstr "Le paiement pré-autorisé a été annulé (ou la caution a été remboursée)."
+
+#: inc/main.inc.php:1917
+msgid "The pre-authorized payment expired (ie the deposit cannot be cashed-in)."
+msgstr "Le paiement pré-autorisé a expiré (la caution ne peut plus être encaissée)."
+
+#: inc/main.inc.php:1948, admin.inc.php:2121
+msgid "Capture"
+msgstr "Capturer"
+
+#: inc/main.inc.php:1955, admin.inc.php:2130
+msgid "Cancel"
+msgstr "Annuler"
+
+#: inc/main.inc.php:1923
+msgid "MANGOPAY transaction Id:"
+msgstr "Identifiant de transaction MANGOPAY&nbsp;:"
+
+#: inc/main.inc.php:1924
+msgid "MANGOPAY transaction status:"
+msgstr "Statut de transaction MANGOPAY&nbsp;:"
+
+#: inc/main.inc.php:1925
+msgid "MANGOPAY transaction total amount:"
+msgstr "Montant total de la transaction MANGOPAY&nbsp;:"
+
+#: inc/main.inc.php:1926
+msgid "MANGOPAY transaction currency:"
+msgstr "Devise de la transaction MANGOPAY&nbsp;:"
+
+#: inc/main.inc.php:1927
+msgid "Order total:"
+msgstr "Total commande&nbsp;:"
+
+#: inc/main.inc.php:1928
+msgid "Order currency:"
+msgstr "Devise commande&nbsp;:"
+
+#: inc/main.inc.php:1932
+msgid "Error: MANGOPAY transaction did not succeed."
+msgstr "Erreur&nbsp;: la transaction MANGOPAY a échoué."
+
+#: inc/main.inc.php:1937
+msgid "Error: wrong currency."
+msgstr "Erreur&nbsp;: devise erronée."
+
+#: inc/main.inc.php:1942
+msgid "Error: wrong payment amount."
+msgstr "Erreur&nbsp;: montant du paiement erroné."
+
+#: inc/main.inc.php:2021, 2022
+msgid "MANGOPAY Payout"
+msgstr "Virement MANGOPAY"
+
+#: inc/main.inc.php:2046
+msgid "Paying selected vendors..."
+msgstr "Paiement des vendeurs sélectionnés..."
+
+#: inc/main.inc.php:3456
+msgid "-Error: this commission payout has already been retried:"
+msgstr "-Erreur&nbsp;: le paiement de cette commission a déjà été ré-essayé&nbsp;:"
+
+#: inc/main.inc.php:2071
+msgid "-Error: bad wc-vendors commission ID:"
+msgstr "-Erreur&nbsp;: ID de commission wc-vendors erroné&nbsp;:"
+
+#: inc/main.inc.php:2086
+msgid "-Commission of"
+msgstr "-La commission de"
+
+#: inc/main.inc.php:2087
+msgid "on order"
+msgstr "sur la commande"
+
+#: inc/main.inc.php:2088
+msgid "is already marked as"
+msgstr "est déjà marquée comme"
+
+#: inc/main.inc.php:2089
+msgid "Skipping."
+msgstr "Ignorée."
+
+#: inc/main.inc.php:2101
+msgid "-Warning: vendor"
+msgstr "-Attention&nbsp;: le vendeur"
+
+#: inc/main.inc.php:2104
+msgid "does not have a MANGOPAY bank account"
+msgstr "n&apos;a pas de compte bancaire enregistré dans MANGOPAY"
+
+#: inc/main.inc.php:2127
+msgid "-Success: commission paid to vendor"
+msgstr "-Succès&nbsp;: commission payée au vendeur"
+
+#: inc/main.inc.php:2134
+msgid "-Error: vendor"
+msgstr "-Erreur&nbsp;: pour le vendeur"
+
+#: inc/main.inc.php:2137
+msgid "MANGOPAY payout transaction failed"
+msgstr "la transaction MANGOPAY a échoué"
+
+#: inc/main.inc.php:2263
+msgid "Billing country"
+msgstr "Pays de facturation"
+
+#: inc/main.inc.php:2596
+msgid "MANGOPAY Account"
+msgstr "Compte MANGOPAY"
+
+#: inc/main.inc.php:2629
+msgid "Yes"
+msgstr "Oui"
+
+#: inc/main.inc.php:2631
+msgid "No"
+msgstr "Non"
+
+#: inc/main.inc.php:3352
+msgid "Done"
+msgstr "Fini"
+
+#: inc/main.inc.php:3353
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: inc/main.inc.php:3356
+msgid "Show a different month"
+msgstr "Voir un autre mois"
+
+#: inc/main.inc.php:3367
+msgid "Products or services that will be subject to a payment pre-authorization (ie deposit). all other payment types will be disabled."
+msgstr "Produits ou services nécessitant un paiement pré-autorisé (par exemple une caution). Tous les autres moyens de paiement seront désactivés."
+
+#: inc/main.inc.php:3492
+msgid "Pre-authorization"
+msgstr "Pré-autorisation"
+
+#: inc/main.inc.php:3501
+msgid "Actions"
+msgstr "Actions"
+
+#: inc/main.inc.php:1443
+msgid "Information for your bank transfer"
+msgstr "Références du virement bancaire"
+
+#: inc/main.inc.php:1444
+msgid "To complete your order, please do a bank transfer with the following information, including the bank wire reference."
+msgstr "Pour terminer votre commande, veuillez procéder à un virement du montant suivant sur ce compte bancaire en utilisant la référence indiquée."
+
+#: inc/main.inc.php:1445
+msgid "We will process your order once the transfer is received."
+msgstr "Nous traiterons votre commande dès que le virement aura été reçu."
+
+#: inc/main.inc.php:1450
+msgid "Amount:"
+msgstr "Montant&nbsp;:"
+
+#: inc/main.inc.php:1455
+msgid "Bank account owner:"
+msgstr "Titulaire du compte&nbsp;:"
+
+#: inc/main.inc.php:1459
+msgid "Owner address:"
+msgstr "Adresse du titulaire&nbsp;:"
+
+#: inc/main.inc.php:1474
+msgid "IBAN:"
+msgstr "IBAN&nbsp;:"
+
+#: inc/main.inc.php:1478
+msgid "BIC:"
+msgstr "BIC&nbsp;:"
+
+#: inc/main.inc.php:1482
+msgid "Wire reference:"
+msgstr "Référence du virement&nbsp;:"
+
+#: inc/gateway.inc.php:65
+msgid "Credit card payments with MANGOPAY"
+msgstr "Paiement par cartes de crédit avec MANGOPAY"
+
+#: inc/gateway.inc.php:66
+msgid "CB / Visa / Mastercard"
+msgstr "CB / Visa / Mastercard"
+
+#: inc/gateway.inc.php:124
+msgid "Online payment"
+msgstr "Paiement en ligne"
+
+#: inc/gateway.inc.php:69
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+#: inc/gateway.inc.php:133
+msgid "Direct payout"
+msgstr "Payout direct"
+
+#: inc/gateway.inc.php:135
+msgid "Enable direct payout of vendors"
+msgstr "Activer le paiement direct des vendeurs"
+
+#: inc/gateway.inc.php:124
+msgid "Choose available credit card types:"
+msgstr "Choisir les types de cartes de crédit disponibles&nbsp;:"
+
+#: inc/gateway.inc.php:126
+msgid "Choose available direct payment types:"
+msgstr "Choisir les types de paiement direct disponibles&nbsp;:"
+
+#: inc/gateway.inc.php:91
+msgid "Enable %s payment"
+msgstr "Autoriser le paiement par %s"
+
+#: inc/gateway.inc.php:71, 75
+msgid "Enable MANGOPAY Payment"
+msgstr "Activer le paiement MANGOPAY"
+
+#: inc/gateway.inc.php:77
+msgid "Enable vendor item-level order management"
+msgstr "Activer la gestion des commandes au niveau de chaque produit pour les vendeurs"
+
+#: inc/gateway.inc.php:96
+msgid "Needs activation"
+msgstr "Activation nécessaire"
+
+#: inc/gateway.inc.php:113
+msgid "Payment types marked with a * will need to be activated for your account. Please contact MANGOPAY."
+msgstr "Les types de paiement marqués avec une astérisque* doivent être préalablement activés pour votre compte. Veuillez contacter MANGOPAY."
+
+#: inc/gateway.inc.php:202
+msgid "Show optional user fields at registration"
+msgstr "Collecte des données utilisateurs facultatives lors de l'inscription"
+
+#: inc/gateway.inc.php:217
+msgid "Card registration (beta):"
+msgstr "Enregistrement des cartes (béta)&nbsp;:"
+
+#: inc/gateway.inc.php:221
+msgid "Activate card registration (beta)"
+msgstr "Activer l'enregistrement des cartes (béta)"
+
+#: inc/gateway.inc.php:421
+msgid "Credit card type:"
+msgstr "Type de carte de crédit&nbsp;:"
+
+#: inc/gateway.inc.php:421
+msgid "Payment type:"
+msgstr "Type de paiement&nbsp;:"
+
+#: inc/gateway.inc.php:213
+msgid "Use payment form of the bank (default)"
+msgstr "Utiliser la page de paiement de la banque (par défaut)"
+
+#: inc/gateway.inc.php:145, inc/gateway.inc.php:149
+msgid "Use this page for payment template"
+msgstr "Utiliser cette page comme modèle pour le paiement"
+
+#: inc/gateway.inc.php:146
+msgid "The page needs to be secured with https"
+msgstr "La page doit être sécurisée par https"
+
+#: inc/gateway.inc.php:189
+msgid "The payment template page cannot be reached with https."
+msgstr "La page du modèle pour le paiement n&apos;est pas accessible par https."
+
+#: inc/gateway.inc.php:150
+msgid "Could not create the MANGOPAY payment URL"
+msgstr "Impossible de générer l'URL de paiement MANGOPAY"
+
+#: inc/gateway.inc.php:151
+msgid "Payment error:"
+msgstr "Erreur paiement&nbsp;:"
+
+#: inc/gateway.inc.php:241
+msgid "Enforce 3DS2 on the sandbox"
+msgstr "Imposer le 3DS2 sur la sandbox"
+
+#: inc/gateway.inc.php:298
+msgid "Refund failed: %s - %s"
+msgstr "Le remboursement a échoué&nbsp;: %s - %s"
+
+#: inc/gateway.inc.php:419
+msgid "Use a credit card"
+msgstr "Utiliser une carte de crédit"
+
+#: inc/gateway.inc.php:454
+msgid "Use a direct debit web wire"
+msgstr "Utiliser un débit direct"
+
+#: inc/gateway.inc.php:487
+msgid "Use a direct bank wire"
+msgstr "Utiliser un virement bancaire direct"
+
+#: inc/gateway.inc.php:445
+msgid "MANGOPAY Bankwire Direct payin failed"
+msgstr "Le paiement MANGOPAY par virement bancaire direct a échoué"
+
+#: inc/gateway.inc.php:570
+msgid "Register a card or use a registered card"
+msgstr "Enregistrer une carte ou utiliser une carte pré-enregistrée"
+
+#: inc/gateway.inc.php:579
+msgid "Getting cards..."
+msgstr "Recherche des cartes..."
+
+#: inc/gateway.inc.php:585; inc/admin.inc.php:1921
+msgid "Processing..."
+msgstr "Traitement..."
+
+#: inc/gateway.inc.php:579
+msgid "Add a card"
+msgstr "Ajouter une carte"
+
+#: inc/gateway.inc.php:590
+msgid "Register a new card:"
+msgstr "Enregistrer une nouvelle carte&nbsp;:"
+
+#: inc/gateway.inc.php:594
+msgid "Card number"
+msgstr "Numéro de la carte"
+
+#: inc/gateway.inc.php:606
+msgid "CVV"
+msgstr "CVC"
+
+#: inc/gateway.inc.php:636
+msgid "Register card"
+msgstr "Enregistrer la carte"
+
+#: inc/gateway.inc.php:902
+msgid "Pre-authorization error:"
+msgstr "Erreur de pré-autorisation&nbsp;:"
+
+#: inc/gateway.inc.php:987
+msgid "No registered card selected"
+msgstr "Aucune carte pré-enregistrée n'a été sélectionnée"
+
+#: inc/gateway.inc.php:1030
+msgid "Unexpected pre-authorization status"
+msgstr "Statut de pré-autorisation inatendu"
+
+#: inc/mangopay.inc.php:115
+msgid "Client ID empty."
+msgstr "ID Client vide."
+
+#: inc/mangopay.inc.php:119
+msgid "Client ID has too few characters."
+msgstr "L'ID Client est trop court."
+
+#: inc/mangopay.inc.php:125
+msgid "Client ID is not alphanumeric."
+msgstr "L'ID Client n'est pas alpha-numérique."
+
+#: inc/mangopay.inc.php:131
+msgid "Client ID is not URL-compatible."
+msgstr "L'ID Client n'est pas compatible avec un URL."
+
+#: inc/mangopay.inc.php:155, 163, 176
+msgid "MANGOPAY API returned:"
+msgstr "L'API MANGOPAY a répondu&nbsp;:"
+
+#: inc/mangopay.inc.php:168 inc/main.inc.php:799, 808, 818, 828, 837, 846, 856,
+#: 865, 875
+msgid "Error:"
+msgstr "Erreur&nbsp;:"
+
+#: inc/mangopay.inc.php:269
+msgid "MANGOPAY connection test aborted: Malformed Client ID."
+msgstr "Test de connexion MANGOPAY interrompu: ID Client non-conforme."
+
+#: inc/mangopay.inc.php:390
+msgid "back"
+msgstr "retour"
+
+#: inc/mangopay.inc.php:391
+msgid "Error: Invalid bank account data."
+msgstr "Erreur&nbsp;: données de compte bancaire invalides."
+
+#: inc/mangopay.inc.php:450
+msgid "Error: some required fields are missing in createMangoUser"
+msgstr "Erreur&nbsp;: champs obligatoires manquants dans createMangoUser"
+
+#: inc/mangopay.inc.php:681
+msgid "My Account"
+msgstr "Mon Compte"
+
+#: inc/mangopay.inc.php:682
+msgid "Your profile info needs to be completed. Please go to %s and fill-in all required fields."
+msgstr "Votre profil doit être complété. Rendez-vous sur la page %s pour remplir tous les champs obligatoires."
+
+#: inc/mangopay.inc.php:1104
+msgid "No wallet found with the current currency."
+msgstr "Aucun portefeuille ayant la bonne devise."
+
+#: inc/mangopay.inc.php:1659, 1664
+msgid "Error: MANGOPAY payin was not found because transaction did not succeed."
+msgstr "Erreur&nbsp;: le payin MANGOPAY n'a pas été trouvé car la transaction a échoué."
+
+#: inc/mangopay.inc.php:2044
+msgid "Payment for this order has been successfully pre-authorized by MANGOPAY on %1s"
+msgstr "Le paiement de cette commande a été pré-autorisé avec succès par MANGOPAY le %1s"
+
+#: inc/mangopay.inc.php:2152
+msgid "Amount is too high."
+msgstr "Montant trop élevé"
+
+#: inc/mangopay.inc.php:2172
+msgid "The pre-authorized payment was captured on %1s"
+msgstr "Le paiement pré-autorisé a été encaissé le %1s"
+
+#: inc/mangopay.inc.php:2219
+msgid "The pre-authorized payment was cancelled  on %1s"
+msgstr "Le paiement pré-autorisé a été annulé le %1s"
+
+#: inc/mangopay.inc.php:2225
+msgid "The pre-authorized amount is %1s"
+msgstr "Le montant pré-autorisé est %1s"
+
+#: inc/main.inc.php:374
+msgid "Soletraders"
+msgstr "Auto-entrepreneurs"
+
+#: inc/main.inc.php:1415
+msgid "Soletrader"
+msgstr "Auto-entrepreneur"
+
+#: inc/webhooks.inc.php:97
+msgid "MANGOPAY Payin API error for Resource ID: %1$s"
+msgstr "Erreur Payin MANGOPAY pour l'ID de ressource : %1$s"
+
+#: inc/webhooks.inc.php:98
+msgid "It could be that the MANGOPAY environment (sandbox or production) has changed since this payment was issued."
+msgstr "L'environnement MANGOPAY (sandbox ou production) a peut-être changé depuis que ce paiement a été fait."
+
+#: inc/webhooks.inc.php:103
+msgid "MANGOPAY Payin not found for Resource ID: %1$s"
+msgstr "Payin MANGOPAY non trouvé pour l'ID de ressource : %1$s"
+
+#: inc/webhooks.inc.php:144
+msgid "A redundant webhook with RessourceId %1s has been recieved and discarded"
+msgstr "Un webhook redondant avec le RessourceId %1s a été reçu et ignoré"
+
+#: inc/webhooks.inc.php:258
+msgid "MANGOPAY Payin does not contain a WooCommerce Order ID reference for Resource ID: %1$s"
+msgstr "Le Payin MANGOPAY ne contient pas d'ID de commande WooCommerce pour l'ID de ressource : %1$s"
+
+#: inc/webhooks.inc.php:269
+msgid "MANGOPAY Payin Resource ID: %1$s references WooCommerce Order ID: %2$s which was not paid by bank wire"
+msgstr "L'ID de ressource de payin MANGOPAY : %1$s fait référence à l'ID de commande WooCommerce : %2$s qui n'a pas été payée par virement"
+
+#: inc/webhooks.inc.php:281
+msgid "MANGOPAY Payin Resource ID: %1$s references wrong WooCommerce Order ID: %2$s"
+msgstr "L'ID de ressource de payin MANGOPAY : %1$s fait référence au mauvais ID de commande WooCommerce : %2$s"
+
+#: inc/webhooks.inc.php:293
+msgid "MANGOPAY Payin did not succeed for Resource ID: %1$s concerning WooCommerce Order ID: %2$s"
+msgstr "Le payin MANGOPAY a échoué pour l'ID de ressource : %1$s correspondant à l'ID de commande WooCommerce : %2$s"
+
+#: inc/webhooks.inc.php:304
+msgid "MANGOPAY Payin debited funds do not match declared for Resource ID: %1$s"
+msgstr "Les fonds débités ne correspondent pas à la déclaration pour l'ID de payin MANGOPAY : %1$s"
+
+#: inc/webhooks.inc.php:315
+msgid "MANGOPAY Payin fees do not match declared for Resource ID: %1$s"
+msgstr "Les frais ne correspondent pas à la déclaration pour l'ID de payin MANGOPAY : %1$s"
+
+#: inc/webhooks.inc.php:356
+msgid "MANGOPAY Payin webhook could not complete payment for order: %1$s. %2$s"
+msgstr "Le webhook de payin MANGOPAY n'a pu compléter le paiement pour la commande : %1$s"
+
+#: inc/webhooks.inc.php:333
+msgid "Received valid MANGOPAY %1$s webhook"
+msgstr "Webhook MANGOPAY valide reçu&nbsp;: %1$s"
+
+#: inc/webhooks.inc.php:384
+msgid "Hook note: "
+msgstr "Webhook&nbsp;: "
+
+#: inc/webhooks.inc.php:449
+msgid "MANGOPAY Bank Wire webhook warning"
+msgstr "Alerte du webhook de paiement par virement MANGOPAY"
+
+#: inc/:605
+msgid "Bankwire Direct payment is enabled:"
+msgstr "Le paiement par virement direct est activé&nbsp;:"
+
+#: inc/admin.inc.php:613
+msgid "The webhook for Bankwire Direct is registered:"
+msgstr "Le webhook pour les virements directs est enregistré&nbsp;:"
+
+#: inc/admin.inc.php:1227
+msgid "All vendors have a bank account:"
+msgstr "Tous les vendeurs ont un compte en banque&nbsp;:"
+
+#: inc/admin.inc.php:1245
+msgid "All vendors have their personnal informations completed:"
+msgstr "Tous les vendeurs ont complété leurs informations personnelles&nbsp;:"
+
+#: inc/admin.inc.php:1264
+msgid "All vendors are KYC/UBO approved:"
+msgstr "Tous les vendeurs sont approuvés KYC/UBO&nbsp;:"
+
+#: inc/admin.inc.php:1283
+msgid "All vendors have accepted terms and conditions:"
+msgstr "Tous les vendeurs ont accepté les termes et conditions&nbsp;:"
+
+#: inc/admin.inc.php:1872
+msgid "Error: the MANGOPAY %1$s webhook is DISABLED or INVALID - please update it via %2$s"
+msgstr "Erreur : le webhook MANGOPAY %1$s est désactivé ou invalide - veuillez le mettre à jour via %2$s"
+
+#: inc/admin.inc.php:1874, 1898
+msgid "the Dashboard"
+msgstr "le tableau de bord"
+
+#: inc/admin.inc.php:1895
+msgid "Error: the URL of the MANGOPAY %1$s webhook is not correct and should be %2$s - please update it via %3$s"
+msgstr "Erreur : l'URL du webhook MANGOPAY %1$s est incorrect et devrait être %2$s - veuillez le mettre à jour via %3$s"
+
+#: inc/admin.inc.php:1917
+msgid "The captured amount is:"
+msgstr "Le montant capturé est&nbsp;:"
+
+#: inc/admin.inc.php:1920
+msgid "The webhooks for Bankwire Direct payment are properly setup."
+msgstr "Les webhooks pour le paiement par virement bancaire direct sont correctement configurés."
+
+#: inc/admin.inc.php:1929
+msgid "MANGOPAY Error: invalid webhook setup for Bankwire Direct"
+msgstr "Erreur MANGOPAY : le webhook pour le paiement par virement bancaire direct est incorrect"
+
+#: inc/admin.inc.php:1950
+msgid "Headquarters address"
+msgstr "Adresse du siège"
+
+#: inc/admin.inc.php:1980
+msgid "Headquarters city"
+msgstr "Ville du siège"
+
+#: inc/admin.inc.php:1996
+msgid "Headquarters region"
+msgstr "Région du siège"
+
+#: inc/admin.inc.php:2012
+msgid "Headquarters postalcode"
+msgstr "Code postal du siège"
+
+#: inc/admin.inc.php:2028
+msgid "Headquarters country"
+msgstr "Pays du siège"
+
+#: inc/validation.inc.php:147
+msgid "State"
+msgstr "Etat"
+
+#: inc/validation.inc.php:30
+msgid "Postal code"
+msgstr "Code postal"
+
+#: inc/main.inc.php:207
+msgid "Document unreadable"
+msgstr "Document illisible"
+
+#: inc/main.inc.php:207
+msgid "Document not acceptable"
+msgstr "Document ne peut être accepté"
+
+#: inc/main.inc.php:207
+msgid "Document has expired"
+msgstr "Document est périmé"
+
+#: inc/main.inc.php:207
+msgid "Document incomplete"
+msgstr "Document incomplet"
+
+#: inc/main.inc.php:207
+msgid "Document missing"
+msgstr "Document manquant"
+
+#: inc/main.inc.php:207
+msgid "Document does not match user data"
+msgstr "Document ne correspond pas aux informations de l'utilisateur"
+
+#: inc/main.inc.php:207
+msgid "Document does not match account data"
+msgstr "Document ne correspond pas aux informations du compte"
+
+#: inc/main.inc.php:207
+msgid "Specific case, please contact us"
+msgstr "Cas spécifique, contactez nous s'il vous plaît"
+
+#: inc/main.inc.php:207
+msgid "Document has been falsified"
+msgstr "Document a été falsifié"
+
+#: inc/main.inc.php:207
+msgid "Underage person"
+msgstr "Personne mineure"
+
+#: inc/main.inc.php:207
+msgid "Other"
+msgstr "Autre"
+
+#: inc/main.inc.php:207
+msgid "PEPS check triggered"
+msgstr "Vérification PEPS déclenché"
+
+#: inc/main.inc.php:207
+msgid "Sanction lists check triggered"
+msgstr "Vérification de la liste de sanctions déclenché"
+
+#: inc/main.inc.php:207
+msgid "Interpol check triggered"
+msgstr "Vérification Interpol déclenché"
+
+#: inc/main.inc.php:207
+msgid "Refused"
+msgstr "Refusé"
+
+#: inc/ajax.inc.php:124
+msgid "List of registered cards"
+msgstr "Liste des cartes pré-enregistrées"
+
+#: inc/ajax.inc.php:134
+msgid "Use it"
+msgstr "Utiliser"
+
+#: inc/ajax.inc.php:135, inc/gateway.inc.php:614
+msgid "Card type"
+msgstr "Type de carte"
+
+#: inc/ajax.inc.php:136
+msgid "Alias"
+msgstr "Alias"
+
+#: inc/ajax.inc.php:137, inc/gateway.inc.php:600
+msgid "Expiration date"
+msgstr "Date d'expiration"
+
+#: inc/ajax.inc.php:138
+msgid "Deactivate it"
+msgstr "Désactiver"
+
+#: inc/ajax.inc.php:177
+msgid "Use a stored card:"
+msgstr "Utiliser une carte enregistrée&nbsp;:"
+
+#: inc/ajax.inc.php:185
+msgid "You did not register a card yet. You can add one below."
+msgstr "Vous n'avez pas encore enregistré de carte. Vous pouvez en ajouter une ci-dessous."
+
+#: inc/ajax.inc.php:193
+msgid "Card not saved, error:"
+msgstr "Carte non enregistrée, erreur&nbsp;:"
+
+#: inc/ajax.inc.php:163
+msgid "Created"
+msgstr "Créé"
+
+#: inc/ajax.inc.php:163
+msgid "Validated"
+msgstr "Validé"
+
+#: inc/ajax.inc.php:163
+msgid "Incomplete"
+msgstr "Incomplet"
+
+#: inc/ajax.inc.php:163
+msgid "Wrong UBO information"
+msgstr "Mauvaise information UBO"
+
+#: inc/ajax.inc.php:163
+msgid "Missing UBO"
+msgstr "UBO manquant"
+
+#: inc/ajax.inc.php:163
+msgid "UBO identity needed"
+msgstr "Identité UBO manquante"
+
+#: inc/ajax.inc.php:163
+msgid "Documents needed"
+msgstr "Documents manquants"
+
+#: inc/ajax.inc.php:163
+msgid "Shareholders declaration needed"
+msgstr "Déclaration d'actionnaires manquante"
+
+#: inc/ajax.inc.php:163
+msgid "Organization chart needed"
+msgstr "Organigramme manquant"
+
+#: inc/ajax.inc.php:163
+msgid "Specific case"
+msgstr "Cas spécifique"
+
+#: inc/ajax.inc.php:163
+msgid "Declaration do not match UBO information"
+msgstr "La déclaration ne correspond pas les informations UBO"
+
+#: inc/ajax.inc.php:163
+msgid "Create an UBO declaration"
+msgstr "Créer une déclaration UBO"
+
+#: inc/ajax.inc.php:163
+msgid "Declaring UBO ..."
+msgstr "Déclaration en cours ..."
+
+#: inc/ajax.inc.php:163
+msgid "Add UBO"
+msgstr "Ajouter un UBO"
+
+#: inc/ajax.inc.php:163
+msgid "Ask validation"
+msgstr "Demande de validation"
+
+#: inc/ajax.inc.php:163
+msgid "Sending validation for UBO ..."
+msgstr "Envoyer la validation pour l'UBO ..."
+
+#: inc/ajax.inc.php:163
+msgid "Sending UBO ..."
+msgstr "Envois de l'UBO"
+
+#: inc/ajax.inc.php:409
+msgid "Add UBO form"
+msgstr "Formulaire d'ajout d'UBO"
+
+#: inc/ajax.inc.php:473
+msgid "City"
+msgstr "Ville"
+
+#: inc/ajax.inc.php:485
+msgid "Region"
+msgstr "Région"
+
+#: inc/ajax.inc.php:573
+msgid "Birthplace city"
+msgstr "Ville de naissance"
+
+#: inc/ajax.inc.php:587
+msgid "Birthplace country"
+msgstr "Pays de naissance"
+
+#: inc/ajax.inc.php:611
+msgid "Send UBO"
+msgstr "Envoyer l'UBO"
+
+#: inc/ajax.inc.php:617
+msgid "Update UBO"
+msgstr "Mettre à jour l'UBO"
+
+#: inc/main.inc.php:745
+msgid "UBO Declaration"
+msgstr "Déclaration UBO"
+
+#: inc/ajax.inc.php:291
+msgid "Edit"
+msgstr "Modifier"
+
+#: inc/ajax.inc.php:179
+msgid "Show details"
+msgstr "Afficher les détails"
+
+#: inc/ajax.inc.php:180
+msgid "Hide details"
+msgstr "Cacher les détails"
+
+#: inc/ajax.inc.php:446
+msgid "Address 1"
+msgstr "Adresse 1"
+
+#: inc/ajax.inc.php:460
+msgid "Address 2"
+msgstr "Adresse 2"
+
+#: inc/mangopay.inc.php:1782
+msgid "Cannot do the payout. Mandatory vendor info is missing."
+msgstr "Payout impossible. Données vendeur obligatoires manquantes."
+
+#: inc/main.inc.php:187
+msgid "You need to supply a bank account."
+msgstr "Vous devez indiquer un compte bancaire."
+
+#: inc/main.inc.php:188
+msgid "<strong>Important notice from the MANGOPAY-WooCommerce payment gateway plugin</strong><br>Due to regulatory changes for on-line payments, starting <strong>1st of September 2019</strong>, all vendors will need to have checked the marketplace's Terms and Conditions and validate their KYC documents in order to be able to receive payouts. Legal users that operate as businesses will additionally need to have a valid company number. Use <a href=\"./admin.php?page=mangopay_settings\">the plugin's dashboard</a> and <a href=\"./users.php\">the users list</a> to check that all your vendors do comply with those mandatory requirements before this date."
+msgstr "<strong>Message important concernant la passerelle de paiement MANGOPAY-WooCommerce</strong><br>Du fait du changement de la réglementation sur les paiements en ligne, à partir du <strong>1er septembre 2019</strong>, tous les vendeurs devront avoir validé les conditions générales de vente de la plateforme et valider leurs documents KYC pour pouvoir recevoir des paiements. Les personnes morales de type entreprises devront de plus fournir leur numéro d'identification. Utilisez <a href=\"./admin.php?page=mangopay_settings\">le tableau de bord de l'extension</a> et <a href=\"./users.php\">la liste des utilisateurs</a> pour vous assurer que tous vos vendeurs respectent ces conditions obligatoires avant cette date."
+
+#: inc/main.inc.php:197
+msgid "You need to validate your KYC/UBO documents to do a payout."
+msgstr "Vous devez faire valider vos documents KYC/UBO pour faire un payout."
+
+#: inc/main.inc.php:208
+msgid "<strong>Important notice from the MANGOPAY-WooCommerce payment gateway plugin</strong><br>Due to regulatory changes for on-line payments, starting <strong>1st of September 2019</strong>, all vendors will need to have checked the marketplace's Terms and Conditions and validate their KYC documents in order to be able to receive payouts. Legal users that operate as businesses will additionally need to have a valid company number. Please make sure to comply with those mandatory conditions before this date."
+msgstr "<strong>Message important concernant la passerelle de paiement MANGOPAY-WooCommerce</strong><br>Du fait du changement de la réglementation sur les paiements en ligne, à partir du <strong>1er septembre 2019</strong>, tous les vendeurs devront avoir validé les conditions générales de vente de la plateforme et valider leurs documents KYC pour pouvoir recevoir des paiements. Les personnes morales de type entreprises devront de plus fournir leur numéro d'identification. Assurez-vous d'être en conformité avec ces nouvelles règles avant cette date."
+
+#: inc/main.inc.php:210
+msgid "You need to accept the Terms and Conditions to do a payout."
+msgstr "Vous devez accepter les termes et conditions pour faire un payout."
+
+#: inc/main.inc.php:750
+msgid "UBOs (Ultimate Beneficial Owners) are the individuals possessing more than 25% of the shares or voting rights of a company. This declaration replaces the old shareholder declaration."
+msgstr "Les UBO (Ultimate Beneficial Owners en anglais) sont les personnes possédant plus de 25% des parts ou des droits de vote d'une société. Cette déclaration remplace l'ancienne déclaration des actionnaires."
+
+#: inc/admin.inc.php:1209
+msgid "PHP Version:"
+msgstr "Version de PHP :"
+
+#: inc/admin.inc.php:1226
+msgid "Curl Version:"
+msgstr "Version de cUrl :"
+
+#: inc/admin.inc.php:1243
+msgid "Custom template:"
+msgstr "Page de paiement personnalisée :"
+
+#: inc/admin.inc.php:1263
+msgid "Enabled MANGOPAY Payment Types:"
+msgstr "Type de paiements MANGOPAY activés :"
+
+#: inc/admin.inc.php:1301
+msgid "Other enabled payment gateways:"
+msgstr "Autres passerelles de paiement activées :"
+
+#: inc/admin.inc.php:1317
+msgid "WordPress Version:"
+msgstr "Version de WordPress :"
+
+#: inc/admin.inc.php:1329
+msgid "Wordpress Theme:"
+msgstr "Thème WordPress utilisé :"
+
+#: inc/admin.inc.php:1351
+msgid "3DS2 Browser Information"
+msgstr "Données navigateur utilisées pour le 3DS2"
+
+#: inc/admin.inc.php:1361
+msgid "Browser IP:"
+msgstr "Adresse IP du navigateur :"
+
+#: inc/admin.inc.php:1370
+msgid "Proxy IP:"
+msgstr "Adresse IP du proxy :"
+
+#: inc/admin.inc.php:1377
+msgid "No Proxy IP"
+msgstr "Pas de proxy détecté"
+
+#: inc/admin.inc.php:1395
+msgid "Javascript Enabled:"
+msgstr "Javascript activé :"
+
+#: inc/admin.inc.php:1412
+msgid "Java Enabled:"
+msgstr "Java activé :"
+
+#: inc/admin.inc.php:1429
+msgid "3DS2 forced:"
+msgstr "3DS2 imposé en mode sandbox :"
+
+#: inc/admin.inc.php:1782
+msgid "All vendors that operate as businesses have their UBO up-to-date:"
+msgstr "Tous les vendeurs qui sont des personnes morales de type entreprises ont renseigné leurs bénéficiaires effectifs :"
+
+#: inc/main.inc.php:1948
+msgid "needs to be valid!"
+msgstr "doit être valide !"
+
+#: inc/main.inc.php:2536
+msgid "company number is mandatory"
+msgstr "numéro de société obligatoire"
+
+#: inc/main.inc.php:2545
+msgid "company number format not recognized"
+msgstr "le format de numéro de société n'est pas reconnu"
+
+#: inc/main.inc.php:2551
+msgid "headquarters city is mandatory"
+msgstr "ville de la société obligatoire"
+
+#: inc/main.inc.php:2551
+msgid "headquarters region is mandatory"
+msgstr "région de la société obligatoire"
+
+#: inc/main.inc.php:2551
+msgid "headquarters postalcode is mandatory"
+msgstr "code postal de la société obligatoire"
+
+#: inc/main.inc.php:2551
+msgid "headquarters address is mandatory"
+msgstr "adresse de la société obligatoire"
+
+#: inc/main.inc.php:2551
+msgid "headquarters country is mandatory"
+msgstr "pays de la société obligatoire"
+
+#: sdk/MangoPay/FilterReports.php:36
+msgid "Transaction cancelled by client"
+msgstr "Transaction annulée par le client"
+
+#: sdk/MangoPay/FilterReports.php:37
+msgid "The user does not complete transaction"
+msgstr "L'utilisateur ne complète pas la transaction"
+
+#: sdk/MangoPay/FilterReports.php:38
+msgid "The transaction has been cancelled by the user"
+msgstr "La transaction a été annulée par l’utilisateur"

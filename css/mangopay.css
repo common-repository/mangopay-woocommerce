@@ -1,0 +1,341 @@
+/**
+* MANGOPAY front CSS
+*
+*/
+.pv_shop_kyc_container mark {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    background: 0 0;
+    font-size: 1.4em;
+    margin: 0 auto;
+}
+.kyc_list_documents_banner{
+    width: 100%;
+    border: solid 1px;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: white;
+}
+.kyc_list_documents_banner.regular{
+    background-color: #63a55b;
+}
+.kyc_list_documents_banner.light{
+    background-color: #68aef3;
+}
+mark.kyc::after{
+    font-family: WooCommerce;
+    text-indent: 0;
+    position: absolute;
+    left: 0;
+    /*top: 0;*/
+    margin: 0 auto;
+    font-size: 1.4em;
+    background: 0 0;
+    line-height: 1;
+}
+mark.kyc.not_sent::after {
+    content: '\e012';
+    color:#ffba00;
+}
+mark.kyc.validation_asked::after {
+    content: '\e011';
+    color: #73a724;
+}
+mark.kyc.validated::after {
+    content: '\e015';
+    color: #2ea2cc;
+}
+mark.kyc.refused::after {
+    content: '\e013';
+    color: #a00;
+}
+.kyc_list_documents_div_tooltype_error{
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    margin-left: 100px;
+    border: solid 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.kyc_list_documents_td_status_icon{
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background: 0 0;
+    font-size: 1.4em;
+    margin: 0 auto;
+    vertical-align: center;
+}
+.mp_hidden{
+    display: none;
+}
+/* code from woocommerce for select2 */
+.select2-hidden-accessible {
+    border: 0!important;
+    clip: rect(0 0 0 0)!important;
+    height: 1px!important;
+    margin: -1px!important;
+    overflow: hidden!important;
+    padding: 0!important;
+    position: absolute!important;
+    width: 1px!important;
+}
+.select2-container {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+}
+.select2-container .select2-selection--single {
+    height: 32px;
+}
+.select2-container .select2-selection {
+    border-color: #ddd;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    line-height: 32px;
+    padding-right: 24px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 28px;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    display: block;
+    padding-left: 8px;
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.select2-container .select2-selection--single .select2-selection__arrow {
+    right: 3px;
+    height: 30px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 20px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #888 transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    height: 0;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+.select2-container--open .select2-dropdown--below {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.select2-container--open .select2-dropdown {
+    left: 0;
+}
+.select2-dropdown--below {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+.select2-dropdown {
+    border-color: #ddd;
+}
+.select2-drop, .select2-dropdown {
+    z-index: 999999!important;
+}
+.select2-dropdown {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    left: -100000px;
+    width: 100%;
+    z-index: 1051;
+}
+.select2-search--dropdown {
+    display: block;
+    padding: 4px;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #aaa;
+}
+.select2-container .select2-search__field {
+    min-width: 150px;
+}
+.select2-search--dropdown .select2-search__field {
+    padding: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.select2-results {
+    line-height: 1.5em;
+}
+.select2-results {
+    display: block;
+}
+.select2-container--default .select2-results>.select2-results__options {
+    max-height: 200px;
+    overflow-y: auto;
+}
+.select2-results__options {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.select2-results .select2-results__group, .select2-results .select2-results__option {
+    margin: 0;
+    padding: 8px;
+}
+.select2-results__option[aria-selected] {
+    cursor: pointer;
+}
+.select2-results__option {
+    padding: 6px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/**
+* MANGOPAY front CSS
+*/
+.preauth_error_messages{
+    display:none;
+    color:red;
+}
+.preauthusercardslist{
+    display:none;
+    margin-left: 15px;
+}
+.preauthusercardslist_label{
+    font-weight: 900;
+    margin-top: 25px;
+    display:inline-block; 
+    margin-bottom: 25px;
+    text-align: center;
+    width: 100%;   
+}
+.preauthform_waiting{
+    display:none;
+}
+.preauthform{
+    display:none;
+    margin-left:30px;
+}
+.title_add_card_label{
+    font-weight: bold;
+}
+.preauth_ccdate_div{
+    float:left;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.preauth_ccdate_div select#preauth_ccdate_month.preauth_ccdate_month {
+    margin-left:10px;
+}
+.preauth_ccdate{
+    width: 120px;
+    margin-left: 80px;
+}
+.preauth_cccrypto{
+    width: 60px;
+    margin-left: 10px;
+}
+.registered_card_type{
+    margin-left: 6px;
+}
+.preauth_cccrypto_div {
+    float:left;
+    margin-top: 10px;
+    margin-bottom:14px;
+}
+.registered_card_type_div {
+    clear:both;
+    margin-top:15px;
+    margin-bottom:30px;
+}
+.bin_preauth_cards{
+    max-width: 26px !important;
+}
+div.preauth_card_div {
+    display:flex;
+    justify-content: space-around;
+    border-bottom: 2px black solid;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+    flex-wrap:wrap;
+}
+div.type-de-carte,
+div.bouton-carte,
+div.numero-de-carte,
+div.date-d-expiration {
+    margin: 2px;
+}
+
+/** UBO **/
+.ubo_buttons_div {
+    display:flex;
+}
+.ubo_add_div {
+    margin: 10px 20px 10px 0px;
+}
+
+.ubo_tr_list_elements > td {
+    padding: 0;
+    background:#fdfdfd;
+}
+.ubo_tr_list_elements > td .ubo_table_list_elements {
+    margin-bottom: 0;
+}
+.ubo_tr_list_elements > td .ubo_table_list_elements thead, 
+.ubo_tr_list_elements > td .ubo_table_list_elements thead tr, 
+.ubo_tr_list_elements > td .ubo_table_list_elements thead tr td {
+    background: #eeeeee;
+}
+.ubo_tr_list_elements > td .ubo_table_list_elements thead tr td, 
+.ubo_tr_list_elements > td .ubo_table_list_elements tbody tr td {
+   /*padding: 15px 25px;*/
+    padding: 5px;
+}
+.ubo_tr_list_elements > td .ubo_table_list_elements tbody{
+    background:#fbfbfb;
+}
+.ubo_tr_list_elements > td table tbody tr td {
+    border-bottom: 1px solid #eee;
+}
+input[id*='show_ubo_elements'] {
+    width: 100%;
+}
+.ubo_table_list_declarations .date_ubodeclaration_td{
+    min-width:190px;
+}
